@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a93a78c55f4aa1429e3f87a6efc5a22, type: 3}
+  m_Name: Temperature
+  m_EditorClassIdentifier: 
+  types: 3
+  saved: 1
+  typeName:
+  - HIGH
+  - MEDIUM
+  - LOW
+  combinations:
+  - name: High with High
+    parent1: HIGH
+    parent2: HIGH
+    percents:
+    - 90
+    - 10
+    - 0
+  - name: High with Medium
+    parent1: HIGH
+    parent2: MEDIUM
+    percents:
+    - 65
+    - 35
+    - 0
+  - name: High with Low
+    parent1: HIGH
+    parent2: LOW
+    percents:
+    - 30
+    - 40
+    - 30
+  - name: Medium with Meidum
+    parent1: MEDIUM
+    parent2: MEDIUM
+    percents:
+    - 20
+    - 60
+    - 20
+  - name: Meidum with Low
+    parent1: MEDIUM
+    parent2: LOW
+    percents:
+    - 0
+    - 35
+    - 65
+  - name: Low with Low
+    parent1: LOW
+    parent2: LOW
+    percents:
+    - 0
+    - 10
+    - 90

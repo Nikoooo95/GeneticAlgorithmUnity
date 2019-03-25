@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a93a78c55f4aa1429e3f87a6efc5a22, type: 3}
+  m_Name: HairColor
+  m_EditorClassIdentifier: 
+  types: 4
+  saved: 1
+  stringsAdded: 0
+  typeName:
+  - BLOND
+  - BROWN
+  - REDHEAD
+  - DARK
+  combinations:
+  - name: BLOND y BLOND
+    parent1: BLOND
+    parent2: BLOND
+    percents:
+    - 98
+    - 2
+    - 0
+    - 0
+  - name: BLOND y BROWN
+    parent1: BLOND
+    parent2: BROWN
+    percents:
+    - 35
+    - 65
+    - 0
+    - 0
+  - name: BLOND y REDHEAD
+    parent1: BLOND
+    parent2: REDHEAD
+    percents:
+    - 30
+    - 2
+    - 68
+    - 0
+  - name: BLOND y DARK
+    parent1: BLOND
+    parent2: DARK
+    percents:
+    - 40
+    - 5
+    - 0
+    - 55
+  - name: BROWN y BROWN
+    parent1: BROWN
+    parent2: BROWN
+    percents:
+    - 1
+    - 98
+    - 0
+    - 1
+  - name: BROWN y REDHEAD
+    parent1: BROWN
+    parent2: REDHEAD
+    percents:
+    - 1
+    - 35
+    - 64
+    - 0
+  - name: BROWN y DARK
+    parent1: BROWN
+    parent2: DARK
+    percents:
+    - 0
+    - 70
+    - 0
+    - 30
+  - name: REDHEAD y REDHEAD
+    parent1: REDHEAD
+    parent2: REDHEAD
+    percents:
+    - 0
+    - 0
+    - 100
+    - 0
+  - name: REDHEAD y DARK
+    parent1: REDHEAD
+    parent2: DARK
+    percents:
+    - 0
+    - 7
+    - 55
+    - 38
+  - name: DARK y DARK
+    parent1: DARK
+    parent2: DARK
+    percents:
+    - 0
+    - 10
+    - 0
+    - 90

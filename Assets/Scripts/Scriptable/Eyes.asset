@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a93a78c55f4aa1429e3f87a6efc5a22, type: 3}
+  m_Name: Eyes
+  m_EditorClassIdentifier: 
+  types: 3
+  saved: 1
+  stringsAdded: 0
+  typeName:
+  - BROWN
+  - GREEN
+  - BLUE
+  combinations:
+  - name: BROWN y BROWN
+    parent1: BROWN
+    parent2: BROWN
+    percents:
+    - 75
+    - 18.75
+    - 6.25
+  - name: BROWN y GREEN
+    parent1: BROWN
+    parent2: GREEN
+    percents:
+    - 50
+    - 37.5
+    - 12.5
+  - name: BROWN y BLUE
+    parent1: BROWN
+    parent2: BLUE
+    percents:
+    - 50
+    - 0
+    - 50
+  - name: GREEN y GREEN
+    parent1: GREEN
+    parent2: GREEN
+    percents:
+    - 1
+    - 74
+    - 25
+  - name: GREEN y BLUE
+    parent1: GREEN
+    parent2: BLUE
+    percents:
+    - 0
+    - 50
+    - 50
+  - name: BLUE y BLUE
+    parent1: BLUE
+    parent2: BLUE
+    percents:
+    - 0
+    - 1
+    - 99
